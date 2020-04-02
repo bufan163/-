@@ -7,6 +7,7 @@ namespace 设计模式
     {
         static void Main(string[] args)
         {
+            
             RuleConfigSource ruleConfigSource = new RuleConfigSource();
             ruleConfigSource.load("123");
 

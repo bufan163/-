@@ -15,6 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "代理模式", "代理模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{82F76A8A-05BD-4A9D-80C2-1548364319B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰器模式", "装饰器模式\装饰器模式.csproj", "{80CB9F33-E3F6-4A33-A002-90F884398C5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型", "创建型", "{E52331BD-C13C-4856-BCE7-F6F1EA00B5D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型", "结构型", "{3CC16743-8CC8-48B7-8E3A-91AD2480B78A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,9 +51,21 @@ Global
 		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CB9F33-E3F6-4A33-A002-90F884398C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CB9F33-E3F6-4A33-A002-90F884398C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CB9F33-E3F6-4A33-A002-90F884398C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CB9F33-E3F6-4A33-A002-90F884398C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56F0D7E6-AE58-48EE-8207-F8B2C914B0EC} = {E52331BD-C13C-4856-BCE7-F6F1EA00B5D2}
+		{3DEEBB27-B341-450F-924A-85E72E1C922C} = {E52331BD-C13C-4856-BCE7-F6F1EA00B5D2}
+		{208AD482-5E96-432A-BF42-CDA700334FC3} = {E52331BD-C13C-4856-BCE7-F6F1EA00B5D2}
+		{446C92B6-0323-425B-BCCB-EDB2CD6A2D87} = {3CC16743-8CC8-48B7-8E3A-91AD2480B78A}
+		{82F76A8A-05BD-4A9D-80C2-1548364319B2} = {3CC16743-8CC8-48B7-8E3A-91AD2480B78A}
+		{80CB9F33-E3F6-4A33-A002-90F884398C5F} = {3CC16743-8CC8-48B7-8E3A-91AD2480B78A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

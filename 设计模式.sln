@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "建造者模式", "建造�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "原型模式", "原型模式\原型模式.csproj", "{208AD482-5E96-432A-BF42-CDA700334FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "代理模式", "代理模式\代理模式.csproj", "{446C92B6-0323-425B-BCCB-EDB2CD6A2D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "代理模式", "代理模式\代理模式.csproj", "{446C92B6-0323-425B-BCCB-EDB2CD6A2D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{82F76A8A-05BD-4A9D-80C2-1548364319B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{446C92B6-0323-425B-BCCB-EDB2CD6A2D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{446C92B6-0323-425B-BCCB-EDB2CD6A2D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{446C92B6-0323-425B-BCCB-EDB2CD6A2D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F76A8A-05BD-4A9D-80C2-1548364319B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

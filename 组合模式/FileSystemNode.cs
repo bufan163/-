@@ -67,7 +67,7 @@ namespace 组合模式
             }
             if (i < size)
             {
-                subNodes.Remove(i);
+                subNodes.Remove(subNodes[i]);
             }
         }
     }

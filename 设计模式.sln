@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "组合模式-实战", "组�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{14BB56CF-0278-4308-BCDD-844790A07899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察者模式\观察者模式.csproj", "{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "观察者模式", "观察者模式\观察者模式.csproj", "{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "观察者模式-实战", "观察者模式-实战\观察者模式-实战.csproj", "{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模板模式", "模板模式\模板模式.csproj", "{2D3F3C68-8DAC-48B8-9863-EF404DA292A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +115,8 @@ Global
 		{062E0D70-CE93-451E-B4E8-EFAF2C145FF4} = {3CC16743-8CC8-48B7-8E3A-91AD2480B78A}
 		{E725ABD0-1CD1-4E98-8104-AE975037A1DF} = {3CC16743-8CC8-48B7-8E3A-91AD2480B78A}
 		{F0CF7DA5-3B74-40D7-AE92-46F43D94D66E} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

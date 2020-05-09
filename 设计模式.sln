@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "模板模式", "模板模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式", "策略模式\策略模式.csproj", "{A5D6367B-816E-48B7-B074-F049DBBCB35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式", "职责链模式\职责链模式.csproj", "{AFB336B5-4497-44F4-99D8-920ECB40D2DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{A5D6367B-816E-48B7-B074-F049DBBCB35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5D6367B-816E-48B7-B074-F049DBBCB35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5D6367B-816E-48B7-B074-F049DBBCB35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB336B5-4497-44F4-99D8-920ECB40D2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB336B5-4497-44F4-99D8-920ECB40D2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB336B5-4497-44F4-99D8-920ECB40D2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB336B5-4497-44F4-99D8-920ECB40D2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +130,7 @@ Global
 		{F6115FB2-BDCD-40BC-BDC0-B0FAFF3842CE} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{2D3F3C68-8DAC-48B8-9863-EF404DA292A3} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{A5D6367B-816E-48B7-B074-F049DBBCB35F} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{AFB336B5-4497-44F4-99D8-920ECB40D2DF} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

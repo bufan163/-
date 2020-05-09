@@ -11,7 +11,7 @@ namespace 职责链模式
             chain.addHandler(new HandlerA());
             chain.addHandler(new HandlerB());
             chain.addHandler(new HandlerC());
-            chain.handle();
+            chain.handle();  //处理
             Console.ReadKey();
         }
     }

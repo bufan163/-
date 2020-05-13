@@ -5,6 +5,9 @@ using System.Text;
 namespace 职责链模式
 {
 
+    /// <summary>
+    /// 链表处理方式
+    /// </summary>
     public abstract class Handler
     {
         protected Handler successor = null;
@@ -60,8 +63,12 @@ namespace 职责链模式
             }
         }
     }
+    /// <summary>
+    /// 核心方法
+    /// </summary>
     public class HandlerChain
     {
+
         private Handler head = null;
         private Handler tail = null;
 

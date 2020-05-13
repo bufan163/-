@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式2", "状态模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式3", "状态模式3\状态模式3.csproj", "{75D27D0B-C50B-4465-B372-6099CDEC12BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器模式", "迭代器模式\迭代器模式.csproj", "{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{75D27D0B-C50B-4465-B372-6099CDEC12BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75D27D0B-C50B-4465-B372-6099CDEC12BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75D27D0B-C50B-4465-B372-6099CDEC12BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{B0290082-762C-4250-9A86-8385DDF1E766} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{919D5D84-EBF7-42DB-974F-BE18C395CA60} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{75D27D0B-C50B-4465-B372-6099CDEC12BF} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

@@ -11,7 +11,7 @@ namespace 职责链模式
             HandlerChain chain = new HandlerChain();
             chain.addHandler(new HandlerA());
             chain.addHandler(new HandlerB());
-           // chain.addHandler(new HandlerC());
+            chain.addHandler(new HandlerC());
             chain.handle();  //处理
 
             HandlerChain2 chain2 = new HandlerChain2();

@@ -9,15 +9,21 @@ namespace 单例模式_实战
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            for (int i = 0; i < 2000; i++)
+            for (int i = 0; i < 1000; i++)
             {
                 //问题复现
                 //Task.Run(Dosth);//模拟并发，读取文件的时候就会提示文件被另一线程使用
-                  Task.Run(() => Dosth2(i));//模拟并发，读取文件的时候就会提示文件被另一线程使用
-                 //Dosth();//正常调用不会
+                 Task.Run(() => Dosth3());//模拟并发，读取文件的时候就会提示文件被另一线程使用
+                                                  //Dosth();//正常调用不会
             }
-
-
+            Console.ReadKey();
+            for (int i = 0; i < 200; i++)
+            {
+                //问题复现
+                //Task.Run(Dosth);//模拟并发，读取文件的时候就会提示文件被另一线程使用
+                Task.Run(() => Dosth3());//模拟并发，读取文件的时候就会提示文件被另一线程使用
+                                         //Dosth();//正常调用不会
+            }
             Console.ReadKey();
         }
         static void Dosth()
@@ -27,12 +33,19 @@ namespace 单例模式_实战
             OrderController order = new OrderController();
             order.create(new OrderVo());
         }
-        static async Task Dosth2(int index)
+        static void Dosth2(int index)
         {
             UserController user = new UserController();
             user.login($"abc{index}", "123");
             OrderController order = new OrderController();
             order.create(new OrderVo());
+        }
+        static long Dosth3()
+        {
+            //生成唯一Id
+            var id= IdGenerator.getInstance().getId();
+            Console.WriteLine(id);
+            return id;
         }
     }
 

@@ -29,6 +29,10 @@ namespace 单例模式_实战
         }
         public long getId()
         {
+            if (id > 1000)
+            {
+                return id.GetAndSet(id + 1);
+            }
             return id.IncrementAndGet();
         }
     }

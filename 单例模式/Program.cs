@@ -14,13 +14,21 @@ namespace 单例模式
             {
                 //问题复现
                 //Task.Run(Dosth);//模拟并发，读取文件的时候就会提示文件被另一线程使用
-                Dosth();//正常调用不会
+                Task.Run(() => Dosth2(i));//模拟并发，读取文件的时候就会提示文件被另一线程使用
+                                          // Dosth();//正常调用不会
             }
-            
+
 
             Console.ReadKey();
         }
         static void Dosth()
+        {
+            UserController user = new UserController();
+            user.login("abc", "123");
+            OrderController order = new OrderController();
+            order.create(new OrderVo());
+        }
+        static void Dosth2(int index)
         {
             UserController user = new UserController();
             user.login("abc", "123");
@@ -42,7 +50,7 @@ namespace 单例模式
 
         public void log(string message)
         {
-           // byte[] data = new UTF8Encoding().GetBytes(message);
+            // byte[] data = new UTF8Encoding().GetBytes(message);
             StreamWriter sw = new StreamWriter(fs);
             sw.WriteLine($"{DateTime.Now}:{message}");
             sw.Flush();

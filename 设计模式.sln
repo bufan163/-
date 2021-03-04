@@ -39,15 +39,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "策略模式", "策略模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "职责链模式", "职责链模式\职责链模式.csproj", "{AFB336B5-4497-44F4-99D8-920ECB40D2DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式2", "职责链模式2\职责链模式2.csproj", "{F8F38F82-5103-40D3-BEA6-314DB8F8CC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "职责链模式2", "职责链模式2\职责链模式2.csproj", "{F8F38F82-5103-40D3-BEA6-314DB8F8CC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式", "状态模式\状态模式.csproj", "{B0290082-762C-4250-9A86-8385DDF1E766}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "状态模式", "状态模式\状态模式.csproj", "{B0290082-762C-4250-9A86-8385DDF1E766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式2", "状态模式2\状态模式2.csproj", "{919D5D84-EBF7-42DB-974F-BE18C395CA60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "状态模式2", "状态模式2\状态模式2.csproj", "{919D5D84-EBF7-42DB-974F-BE18C395CA60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式3", "状态模式3\状态模式3.csproj", "{75D27D0B-C50B-4465-B372-6099CDEC12BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "状态模式3", "状态模式3\状态模式3.csproj", "{75D27D0B-C50B-4465-B372-6099CDEC12BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器模式", "迭代器模式\迭代器模式.csproj", "{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "迭代器模式", "迭代器模式\迭代器模式.csproj", "{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{1B40C644-720D-4D33-81BF-490C364BC3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B40C644-720D-4D33-81BF-490C364BC3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B40C644-720D-4D33-81BF-490C364BC3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B40C644-720D-4D33-81BF-490C364BC3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B40C644-720D-4D33-81BF-490C364BC3C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{919D5D84-EBF7-42DB-974F-BE18C395CA60} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{75D27D0B-C50B-4465-B372-6099CDEC12BF} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{F41981E8-B8D9-41E2-9D44-498B93B5C3AE} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{1B40C644-720D-4D33-81BF-490C364BC3C6} = {E52331BD-C13C-4856-BCE7-F6F1EA00B5D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

@@ -1,0 +1,69 @@
+﻿
+    #region 继承
+
+    public class AbstractBird
+    {
+        //...省略其他属性和方法...
+        public virtual void fly()
+        { //...
+        }
+    }
+    /// <summary>
+    /// 鸵鸟
+    /// </summary>
+    public class Ostrich1 : AbstractBird
+    {
+      //...省略其他属性和方法...
+        public override void fly()
+        {
+            throw new Exception("I can't fly.'");
+        }
+    }
+    #endregion
+
+    #region 组合
+
+    public interface Flyable
+    {
+        void fly();
+    }
+    public interface Tweetable
+    {
+        void tweet();
+    }
+    public interface EggLayable
+    {
+        void layEgg();
+    }
+    public class Ostrich2 : Tweetable, EggLayable
+    {//鸵鸟
+     //... 省略其他属性和方法...
+
+        public void tweet()
+        { //..
+        }
+
+        public void layEgg()
+        { //...
+        }
+    }
+    //麻雀
+    public class Sparrow : Flyable, Tweetable, EggLayable
+    {
+        //... 省略其他属性和方法...
+        public void fly()
+        {
+
+        }
+
+        public void tweet()
+        {
+
+        }
+
+        public void layEgg()
+        {
+
+        }
+    }
+    #endregion

@@ -9,7 +9,7 @@ namespace 组合优于继承
     /// </summary>
     public class Ostrich
     {
-        private   tweetAbility = new TweetAbility(); //组合
+        private TweetAbility tweetAbility = new TweetAbility(); //组合
         private EggLayAbility eggLayAbility = new EggLayAbility(); //组合
         //... 省略其他属性和方法...
         public string _name;

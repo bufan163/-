@@ -67,7 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "接口和抽象类", "接�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "接口实战", "接口实战\接口实战.csproj", "{C22A0891-4CC1-493A-B1C8-E21BEC488F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "鉴权接口实战", "鉴权接口实战\鉴权接口实战.csproj", "{591427D8-95AA-4331-93A9-6C21675F8BAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "鉴权接口实战", "鉴权接口实战\鉴权接口实战.csproj", "{591427D8-95AA-4331-93A9-6C21675F8BAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "理论-SOLID", "理论-SOLID", "{6AC1F8A1-583B-4004-A38D-864F62A79734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "开闭原则-OCP", "开闭原则-OCP\开闭原则-OCP.csproj", "{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +195,10 @@ Global
 		{591427D8-95AA-4331-93A9-6C21675F8BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{591427D8-95AA-4331-93A9-6C21675F8BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{591427D8-95AA-4331-93A9-6C21675F8BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -225,6 +233,7 @@ Global
 		{091F056B-61AC-4CA2-B5A9-AEA1C79D65B6} = {895DA225-CE34-49AC-9242-FEF5254E2F96}
 		{C22A0891-4CC1-493A-B1C8-E21BEC488F84} = {895DA225-CE34-49AC-9242-FEF5254E2F96}
 		{591427D8-95AA-4331-93A9-6C21675F8BAE} = {895DA225-CE34-49AC-9242-FEF5254E2F96}
+		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA} = {6AC1F8A1-583B-4004-A38D-864F62A79734}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

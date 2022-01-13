@@ -77,6 +77,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "里氏替换原则_LSP", "�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式", "访问者模式\访问者模式.csproj", "{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式2", "访问者模式2\访问者模式2.csproj", "{828D6047-1636-48C1-9812-881586E43BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +213,10 @@ Global
 		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828D6047-1636-48C1-9812-881586E43BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828D6047-1636-48C1-9812-881586E43BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828D6047-1636-48C1-9812-881586E43BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828D6047-1636-48C1-9812-881586E43BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +254,7 @@ Global
 		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA} = {6AC1F8A1-583B-4004-A38D-864F62A79734}
 		{FE2546C7-6AB0-48C7-8737-3DD6328B575F} = {6AC1F8A1-583B-4004-A38D-864F62A79734}
 		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{828D6047-1636-48C1-9812-881586E43BD2} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "工厂模式", "设计模式\工厂模式.csproj", "{56F0D7E6-AE58-48EE-8207-F8B2C914B0EC}"
 EndProject
@@ -73,7 +73,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "理论-SOLID", "理论-SOLI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "开闭原则-OCP", "开闭原则-OCP\开闭原则-OCP.csproj", "{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "里氏替换原则_LSP", "里氏替换原则_LSP\里氏替换原则_LSP.csproj", "{FE2546C7-6AB0-48C7-8737-3DD6328B575F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "里氏替换原则_LSP", "里氏替换原则_LSP\里氏替换原则_LSP.csproj", "{FE2546C7-6AB0-48C7-8737-3DD6328B575F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式", "访问者模式\访问者模式.csproj", "{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +207,10 @@ Global
 		{FE2546C7-6AB0-48C7-8737-3DD6328B575F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE2546C7-6AB0-48C7-8737-3DD6328B575F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE2546C7-6AB0-48C7-8737-3DD6328B575F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +247,7 @@ Global
 		{591427D8-95AA-4331-93A9-6C21675F8BAE} = {895DA225-CE34-49AC-9242-FEF5254E2F96}
 		{1F8DE0A6-11AD-42B0-8267-AD66E24C83DA} = {6AC1F8A1-583B-4004-A38D-864F62A79734}
 		{FE2546C7-6AB0-48C7-8737-3DD6328B575F} = {6AC1F8A1-583B-4004-A38D-864F62A79734}
+		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

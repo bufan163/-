@@ -75,11 +75,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "开闭原则-OCP", "开闭�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "里氏替换原则_LSP", "里氏替换原则_LSP\里氏替换原则_LSP.csproj", "{FE2546C7-6AB0-48C7-8737-3DD6328B575F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式", "访问者模式\访问者模式.csproj", "{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "访问者模式", "访问者模式\访问者模式.csproj", "{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式2", "访问者模式2\访问者模式2.csproj", "{828D6047-1636-48C1-9812-881586E43BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "访问者模式2", "访问者模式2\访问者模式2.csproj", "{828D6047-1636-48C1-9812-881586E43BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{53A5FE49-553B-4736-8F68-DCB8D423A1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{53A5FE49-553B-4736-8F68-DCB8D423A1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{E7FD286D-36CB-4179-9543-9E14E6373476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -223,6 +225,10 @@ Global
 		{53A5FE49-553B-4736-8F68-DCB8D423A1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A5FE49-553B-4736-8F68-DCB8D423A1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A5FE49-553B-4736-8F68-DCB8D423A1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FD286D-36CB-4179-9543-9E14E6373476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FD286D-36CB-4179-9543-9E14E6373476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FD286D-36CB-4179-9543-9E14E6373476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FD286D-36CB-4179-9543-9E14E6373476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -262,6 +268,7 @@ Global
 		{3F8A3EBE-18D6-47B4-9E6A-DD3AF811D139} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{828D6047-1636-48C1-9812-881586E43BD2} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{53A5FE49-553B-4736-8F68-DCB8D423A1DA} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{E7FD286D-36CB-4179-9543-9E14E6373476} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

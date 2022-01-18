@@ -33,6 +33,7 @@ namespace 原型模式
             int maxindex = lastindex;
             foreach (SearchWord searchWord in toBeUpdatedSearchWords)
             {
+                //原型模式的关键点就是拷贝这里，赋值新的值
                 searchWord.status = "new";
                 if (searchWord.getLastIndex() > maxindex)
                 {

@@ -8,7 +8,7 @@ namespace 建造者模式
     public class ResourcePoolConfig
     {
         private String name;
-        private int maxTotal;
+        public int maxTotal;
         private int maxIdle;
         private int minIdle;
         public string Message  { get; set; }

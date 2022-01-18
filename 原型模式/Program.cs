@@ -7,12 +7,12 @@ namespace 原型模式
         static void Main(string[] args)
         {
             var demo = new Demo();
-            demo.init();
+            demo.init();//初始化
             foreach (var item in demo.currentKeywords)
             {
                 Console.WriteLine($"{item.Value.timestamp} --  {item.Key} -- {item.Value.status}");
             }
-            demo.refresh();
+            demo.refresh();//刷新
             foreach (var item in demo.currentKeywords)
             {
                 Console.WriteLine($"{item.Value.timestamp} --  {item.Key} -- {item.Value.status}");

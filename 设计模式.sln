@@ -81,7 +81,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "访问者模式2", "访问�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{53A5FE49-553B-4736-8F68-DCB8D423A1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{E7FD286D-36CB-4179-9543-9E14E6373476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "命令模式", "命令模式\命令模式.csproj", "{E7FD286D-36CB-4179-9543-9E14E6373476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介模式", "中介模式\中介模式.csproj", "{967F108D-39A3-41FA-9D0B-A4DD8B30509D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +231,10 @@ Global
 		{E7FD286D-36CB-4179-9543-9E14E6373476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7FD286D-36CB-4179-9543-9E14E6373476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7FD286D-36CB-4179-9543-9E14E6373476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967F108D-39A3-41FA-9D0B-A4DD8B30509D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967F108D-39A3-41FA-9D0B-A4DD8B30509D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967F108D-39A3-41FA-9D0B-A4DD8B30509D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967F108D-39A3-41FA-9D0B-A4DD8B30509D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,6 +275,7 @@ Global
 		{828D6047-1636-48C1-9812-881586E43BD2} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{53A5FE49-553B-4736-8F68-DCB8D423A1DA} = {14BB56CF-0278-4308-BCDD-844790A07899}
 		{E7FD286D-36CB-4179-9543-9E14E6373476} = {14BB56CF-0278-4308-BCDD-844790A07899}
+		{967F108D-39A3-41FA-9D0B-A4DD8B30509D} = {14BB56CF-0278-4308-BCDD-844790A07899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0FE9AAB-92F0-42D5-9054-37FD3BC7A8FE}

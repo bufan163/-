@@ -14,6 +14,7 @@ namespace 建造者模式
                     .setMinIdle(12)
                     .build();
             config.Message = "123";
+            Console.WriteLine(config.maxTotal);
 
             ConstructorArg arg = new ConstructorArg.MyBuilder().IsRef(true).builder();
 
